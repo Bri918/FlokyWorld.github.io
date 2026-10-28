@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Floky World: aventuras, personalidad y ocurrencias de Floky, el pequeño perro salchicha.">
+  <title>Floky World 🐾</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <div class="announcement">🐾 Un pequeño rincón dedicado al verdadero dueño de la casa</div>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Floky World, inicio"><span class="brand-icon">🐾</span> floky<span>world</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#floky">Conóceme</a><a href="#personalidad">Mi personalidad</a><a href="#traductor">Traductor</a>
+      <a href="#galeria">Galería</a><a href="#aventuras">Aventuras</a><a class="nav-cta" href="#test">Pon a prueba tu conocimiento</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="pulse"></span> PRESENTANDO AL REY DE LA CASA</span>
+        <h1>Mucho carácter.<br><em>Patitas pequeñas.</em></h1>
+        <p class="hero-lead">Hola, soy Floky. Perro salchicha de profesión, guardián de la casa por vocación y experto en negociar premios.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#floky">Conoce a Floky <span>↘</span></a><a class="text-link" href="#traductor">Descifra mis pensamientos →</a></div>
+        <div class="hero-note"><span class="avatar-paw">🐾</span><span><strong>6 años de experiencia</strong><small>en ternura, ladridos y negociación</small></span></div>
+      </div>
+      <div class="hero-visual">
+        <!-- Reemplaza img/floky-principal.jpg por una foto real de Floky -->
+        <div class="hero-photo photo-placeholder" role="img" aria-label="Espacio reservado para una foto de Floky">
+          <span class="photo-emoji">🐕</span><span class="photo-label">Tu foto favorita de Floky</span>
+        </div>
+        <div class="floating-card floating-top"><span>🖤</span><div><strong>100% salchicha</strong><small>0% paciencia</small></div></div>
+        <div class="floating-card floating-bottom"><span class="star">✦</span><div><strong>El jefe de la casa</strong><small>Él pone las reglas</small></div></div>
+        <span class="decor decor-one">✳</span><span class="decor decor-two">✦</span>
+      </div>
+    </section>
+
+    <section class="intro-strip">
+      <span>PEQUEÑO PERO PODEROSO</span><span class="strip-dot">✦</span><span>ESPECIALISTA EN POLLITO</span><span class="strip-dot">✦</span><span>GUARDIÁN OFICIAL</span><span class="strip-dot">✦</span><span>MUY QUERIDO</span>
+    </section>
+
+    <section class="section profile-section" id="floky">
+      <div class="section-heading">
+        <span class="eyebrow">01 — FICHA PERSONAL</span><h2>¿Quién es <em>Floky?</em></h2>
+        <p>Un corazón enorme en un cuerpito alargado. Aquí tienes los datos oficiales de su majestad.</p>
+      </div>
+      <div class="profile-grid">
+        <div class="profile-photo photo-placeholder"><span class="photo-emoji">🐾</span><span class="photo-label">Añade aquí una foto de Floky</span></div>
+        <div class="profile-details">
+          <div class="detail-card"><span class="detail-icon">🏷️</span><div><small>Nombre</small><strong>Floky</strong></div></div>
+          <div class="detail-card"><span class="detail-icon">🐕</span><div><small>Raza</small><strong>Perro salchicha</strong></div></div>
+          <div class="detail-card"><span class="detail-icon">🎂</span><div><small>Edad</small><strong>6 añitos</strong></div></div>
+          <div class="detail-card"><span class="detail-icon">🏠</span><div><small>Cargo familiar</small><strong>Dueño de la casa</strong></div></div>
+          <div class="profile-quote">“No soy dramático. Simplemente tengo estándares.” <span>— Floky, probablemente</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section personality-section" id="personalidad">
+      <div class="section-heading centered">
+        <span class="eyebrow">02 — PERSONALIDAD</span><h2>Conoce mis <em>distintas versiones</em></h2>
+        <p>Un perrito, muchas opiniones. Toca una tarjeta para conocer su historia.</p>
+      </div>
+      <div class="personality-grid">
+        <button class="personality-card" data-personality="guardian">
+          <span class="card-number">01 / EL GUARDIÁN</span><span class="personality-emoji">🏠</span><h3>El guardián de la casa</h3><p>Si alguien desconocido se acerca, Floky se entera primero que todos.</p><span class="card-more">Descubrir más ↗</span>
+        </button>
+        <button class="personality-card" data-personality="walk">
+          <span class="card-number">02 / EL EXPLORADOR</span><span class="personality-emoji">🦮</span><h3>El inspector de paseos</h3><p>Le encanta explorar. Los perros grandes, en cambio, reciben su opinión.</p><span class="card-more">Descubrir más ↗</span>
+        </button>
+        <button class="personality-card" data-personality="negotiator">
+          <span class="card-number">03 / EL NEGOCIADOR</span><span class="personality-emoji">🍗</span><h3>El negociador profesional</h3><p>¿Quieres mi patita? Primero tendremos que hablar de la recompensa.</p><span class="card-more">Descubrir más ↗</span>
+        </button>
+      </div>
+      <div class="personality-result" id="personalityResult" aria-live="polite"><span>💬</span><p>Selecciona una tarjeta para descubrir qué pasa por esa cabecita.</p></div>
+    </section>
+
+    <section class="section translator-section" id="traductor">
+      <div class="translator-copy">
+        <span class="eyebrow">03 — TRADUCTOR PERRUNO</span><h2>¿Qué está pensando <em>Floky?</em></h2>
+        <p>Selecciona una situación y descubre la traducción oficial de sus pensamientos (interpretación no certificada por veterinarios).</p>
+        <label for="situationSelect">Elige una situación</label>
+        <select id="situationSelect">
+          <option value="patita">Le piden la patita a cambio de pollo</option>
+          <option value="perro">Aparece un perro grande en el paseo</option>
+          <option value="comida">Escucha que están preparando comida</option>
+          <option value="casa">Piensa en su vida en casa</option>
+        </select>
+        <button class="button button-dark" id="translateBtn">Traducir pensamiento ✨</button>
+      </div>
+      <div class="thought-card">
+        <div class="thought-image photo-placeholder"><span class="photo-emoji">🐶</span><span class="photo-label">La cara de Floky aquí</span></div>
+        <div class="thought-bubble"><span class="quote-mark">“</span><p id="thoughtText" aria-live="polite">¿Otra vez con la patita? ¿Y mi pago por adelantado?</p><span class="thought-signature">— Floky, director de negociaciones</span></div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="galeria">
+      <div class="section-heading">
+        <span class="eyebrow">04 — GALERÍA</span><h2>Momentos <em>flokytásticos</em></h2>
+        <p>Las pruebas fotográficas de que este pequeño personaje se roba todas las miradas.</p>
+      </div>
+      <div class="gallery-filters" role="group" aria-label="Filtrar galería">
+        <button class="filter-button active" data-filter="all">Todos</button><button class="filter-button" data-filter="aventuras">Aventuras</button><button class="filter-button" data-filter="siestas">Siestas</button><button class="filter-button" data-filter="caritas">Caritas</button><button class="filter-button" data-filter="tiernos">Momentos tiernos</button>
+      </div>
+      <div class="gallery-grid" id="galleryGrid">
+        <button class="gallery-item gallery-tall photo-placeholder" data-category="aventuras" data-caption="Floky explorando el mundo"><span class="photo-emoji">🌳</span><span class="photo-label">Añade foto de paseo</span><span class="gallery-caption">Pequeño explorador ↗</span></button>
+        <button class="gallery-item photo-placeholder" data-category="siestas" data-caption="La siesta es sagrada"><span class="photo-emoji">💤</span><span class="photo-label">Añade foto durmiendo</span><span class="gallery-caption">No molestar ↗</span></button>
+        <button class="gallery-item photo-placeholder" data-category="caritas" data-caption="La mirada de quien exige un premio"><span class="photo-emoji">😏</span><span class="photo-label">Añade una carita</span><span class="gallery-caption">¿Y mi pollito? ↗</span></button>
+        <button class="gallery-item photo-placeholder" data-category="tiernos" data-caption="Un momento para guardar en el corazón"><span class="photo-emoji">🖤</span><span class="photo-label">Añade foto tierna</span><span class="gallery-caption">Mi lugar favorito ↗</span></button>
+      </div>
+      <p class="gallery-tip">💡 Para poner tus fotos: guárdalas en la carpeta <code>img</code> y sigue las instrucciones del README.</p>
+    </section>
+
+    <section class="section timeline-section" id="aventuras">
+      <div class="section-heading centered">
+        <span class="eyebrow">05 — DIARIO DE AVENTURAS</span><h2>Crónicas de <em>Floky</em></h2><p>Pequeñas historias de una vida llena de grandes emociones.</p>
+      </div>
+      <div class="timeline">
+        <button class="timeline-entry" aria-expanded="false"><span class="timeline-dot">🐾</span><span class="timeline-date">EN CADA PASEO</span><strong>El encuentro con perros grandes</strong><span class="timeline-plus">+</span><p class="timeline-hidden">Floky ve un perro grande y siente que es el momento perfecto para expresar sus opiniones en voz alta.</p></button>
+        <button class="timeline-entry" aria-expanded="false"><span class="timeline-dot">🔔</span><span class="timeline-date">EN CASA</span><strong>Alguien se acerca a la puerta</strong><span class="timeline-plus">+</span><p class="timeline-hidden">El sistema de seguridad Floky™ se activa. No importa si es una visita conocida: hay que investigar.</p></button>
+        <button class="timeline-entry" aria-expanded="false"><span class="timeline-dot">🍗</span><span class="timeline-date">HORA DE LA RECOMPENSA</span><strong>El trato de la patita</strong><span class="timeline-plus">+</span><p class="timeline-hidden">Floky considera que cada truco merece una compensación justa. Las negociaciones siguen abiertas.</p></button>
+      </div>
+    </section>
+
+    <section class="section quiz-section" id="test">
+      <div class="quiz-intro"><span class="eyebrow">06 — EL GRAN TEST</span><h2>¿Qué tan bien conoces a <em>Floky?</em></h2><p>Demuestra que eres parte de su club de fans.</p><div class="quiz-stamp">FLOKY<br>FAN CLUB<br>★ EST. FOREVER ★</div></div>
+      <div class="quiz-card" id="quizCard">
+        <div class="quiz-top"><span id="questionCount">PREGUNTA 1 DE 3</span><span id="quizScore">🐾 0 puntos</span></div><div class="progress-track"><div class="progress-bar" id="progressBar"></div></div>
+        <h3 id="questionText">¿Qué raza es Floky?</h3><div class="quiz-options" id="quizOptions"></div>
+        <p class="quiz-feedback" id="quizFeedback" aria-live="polite"></p><button class="button button-dark quiz-next" id="nextQuestion" disabled>Siguiente pregunta →</button>
+      </div>
+    </section>
+
+    <section class="closing-cta">
+      <span class="closing-paw">🐾</span><span class="eyebrow">HECHO CON MUCHO AMOR</span><h2>Una web pequeña para un amor <em>gigante.</em></h2><p>Porque algunas patitas dejan huellas que duran para siempre.</p><a class="button button-light" href="#inicio">Volver al inicio ↑</a>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand footer-brand" href="#inicio">🐾 floky<span>world</span></a><p>Dedicado al verdadero dueño de la casa: Floky. 🖤</p><span>© <span id="year"></span> · Hecho con amor y algunas croquetas.</span></footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true"><button id="closeLightbox" aria-label="Cerrar imagen">×</button><div class="lightbox-content"><span id="lightboxEmoji">🐾</span><p id="lightboxCaption"></p><small>Cuando añadas tus fotos reales, podrás verlas aquí.</small></div></div>
+</body>
+</html>
